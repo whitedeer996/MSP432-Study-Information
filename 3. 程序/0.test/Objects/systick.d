@@ -1,0 +1,16 @@
+.\objects\systick.o: HARDWARE\Soure\systick.c
+.\objects\systick.o: .\HARDWARE\debug.h
+.\objects\systick.o: .\HARDWARE\interrupt.h
+.\objects\systick.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\systick.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\systick.o: .\HARDWARE\msp.h
+.\objects\systick.o: .\HARDWARE\msp432p401r.h
+.\objects\systick.o: .\HARDWARE\msp_compatibility.h
+.\objects\systick.o: .\HARDWARE\msp432p401r_classic.h
+.\objects\systick.o: C:\Users\mmj19\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h
+.\objects\systick.o: C:\Users\mmj19\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\systick.o: C:\Users\mmj19\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\systick.o: C:\Users\mmj19\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\systick.o: C:\Users\mmj19\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\systick.o: .\HARDWARE\system_msp432p401r.h
+.\objects\systick.o: .\HARDWARE\Soure\systick.h

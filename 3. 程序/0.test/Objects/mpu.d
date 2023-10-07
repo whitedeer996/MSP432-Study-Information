@@ -1,0 +1,16 @@
+.\objects\mpu.o: HARDWARE\Soure\mpu.c
+.\objects\mpu.o: .\HARDWARE\debug.h
+.\objects\mpu.o: .\HARDWARE\interrupt.h
+.\objects\mpu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\mpu.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\mpu.o: .\HARDWARE\msp.h
+.\objects\mpu.o: .\HARDWARE\msp432p401r.h
+.\objects\mpu.o: .\HARDWARE\msp_compatibility.h
+.\objects\mpu.o: .\HARDWARE\msp432p401r_classic.h
+.\objects\mpu.o: C:\Users\mmj19\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h
+.\objects\mpu.o: C:\Users\mmj19\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\mpu.o: C:\Users\mmj19\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\mpu.o: C:\Users\mmj19\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\mpu.o: C:\Users\mmj19\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\mpu.o: .\HARDWARE\system_msp432p401r.h
+.\objects\mpu.o: .\HARDWARE\Soure\mpu.h

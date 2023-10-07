@@ -1,0 +1,17 @@
+.\objects\wdt_a.o: HARDWARE\Soure\wdt_a.c
+.\objects\wdt_a.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\wdt_a.o: .\HARDWARE\Soure\wdt_a.h
+.\objects\wdt_a.o: .\HARDWARE\msp.h
+.\objects\wdt_a.o: .\HARDWARE\msp432p401r.h
+.\objects\wdt_a.o: .\HARDWARE\msp_compatibility.h
+.\objects\wdt_a.o: .\HARDWARE\msp432p401r_classic.h
+.\objects\wdt_a.o: C:\Users\mmj19\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h
+.\objects\wdt_a.o: C:\Users\mmj19\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\wdt_a.o: C:\Users\mmj19\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\wdt_a.o: C:\Users\mmj19\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\wdt_a.o: C:\Users\mmj19\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\wdt_a.o: .\HARDWARE\system_msp432p401r.h
+.\objects\wdt_a.o: .\HARDWARE\interrupt.h
+.\objects\wdt_a.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\objects\wdt_a.o: .\HARDWARE\debug.h
+.\objects\wdt_a.o: .\HARDWARE\Soure\sysctl.h

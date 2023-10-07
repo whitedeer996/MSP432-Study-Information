@@ -1,0 +1,14 @@
+.\objects\pmap.o: HARDWARE\Soure\pmap.c
+.\objects\pmap.o: .\HARDWARE\debug.h
+.\objects\pmap.o: .\HARDWARE\Soure\pmap.h
+.\objects\pmap.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\pmap.o: .\HARDWARE\msp.h
+.\objects\pmap.o: .\HARDWARE\msp432p401r.h
+.\objects\pmap.o: .\HARDWARE\msp_compatibility.h
+.\objects\pmap.o: .\HARDWARE\msp432p401r_classic.h
+.\objects\pmap.o: C:\Users\mmj19\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h
+.\objects\pmap.o: C:\Users\mmj19\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\pmap.o: C:\Users\mmj19\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\pmap.o: C:\Users\mmj19\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\pmap.o: C:\Users\mmj19\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\pmap.o: .\HARDWARE\system_msp432p401r.h

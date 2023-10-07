@@ -1,0 +1,129 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.37.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 茅 敏杰, 小老头, LIC=TIVNB-23LZ7-UHH8H-W2UB1-KMD3T-W093J
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.37.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.37.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      UL2CM3.DLL V1.164.7.0
+Dialog DLL:      TCM.DLL V1.56.1.0
+ 
+<h2>Project:</h2>
+C:\Users\mmj19\Desktop\MSP432P401R搭建keil开发环境及资料\3. 程序\0.test\test.uvprojx
+Project File Date:  07/02/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling crc32.c...
+compiling cpu.c...
+compiling blinkLED.c...
+compiling aes256.c...
+compiling comp_e.c...
+compiling cs.c...
+compiling adc14.c...
+compiling flash_a.c...
+compiling fpu.c...
+compiling interrupt.c...
+compiling dma.c...
+compiling i2c.c...
+compiling flash.c...
+compiling lcd_f.c...
+compiling pmap.c...
+compiling mpu.c...
+compiling pcm.c...
+compiling reset.c...
+compiling ref_a.c...
+compiling pss.c...
+compiling rtc_c.c...
+compiling sysctl.c...
+compiling sysctl_a.c...
+compiling wdt_a.c...
+compiling spi.c...
+compiling systick.c...
+compiling timer32.c...
+compiling timer_a.c...
+assembling startup_msp432p401r_uvision.s...
+compiling gpio.c...
+HARDWARE\Soure\gpio.c(53): warning:  #1296-D: extended constant initialiser used
+      (uint32_t)P1,
+HARDWARE\Soure\gpio.c(54): warning:  #1296-D: extended constant initialiser used
+      (uint32_t)P1+1,
+HARDWARE\Soure\gpio.c(55): warning:  #1296-D: extended constant initialiser used
+      (uint32_t)P3,
+HARDWARE\Soure\gpio.c(56): warning:  #1296-D: extended constant initialiser used
+      (uint32_t)P3+1,
+HARDWARE\Soure\gpio.c(57): warning:  #1296-D: extended constant initialiser used
+      (uint32_t)P5,
+HARDWARE\Soure\gpio.c(58): warning:  #1296-D: extended constant initialiser used
+      (uint32_t)P5+1,
+HARDWARE\Soure\gpio.c(59): warning:  #1296-D: extended constant initialiser used
+      (uint32_t)P7,
+HARDWARE\Soure\gpio.c(60): warning:  #1296-D: extended constant initialiser used
+      (uint32_t)P7+1,
+HARDWARE\Soure\gpio.c(61): warning:  #1296-D: extended constant initialiser used
+      (uint32_t)P9,
+HARDWARE\Soure\gpio.c(62): warning:  #1296-D: extended constant initialiser used
+      (uint32_t)P9+1,
+HARDWARE\Soure\gpio.c(63): warning:  #1296-D: extended constant initialiser used
+      (uint32_t)PJ
+HARDWARE\Soure\gpio.c: 11 warnings, 0 errors
+compiling ASCII.C...
+compiling bsp_i2c_gpio.c...
+HARDWARE\OLED-IIC\bsp_i2c_gpio.c(178): warning:  #550-D: variable "re"  was set but never used
+  	uint8_t re,i;
+HARDWARE\OLED-IIC\bsp_i2c_gpio.c(178): warning:  #177-D: variable "i"  was declared but never referenced
+  	uint8_t re,i;
+HARDWARE\OLED-IIC\bsp_i2c_gpio.c: 2 warnings, 0 errors
+compiling system_msp432p401r.c...
+compiling uart.c...
+compiling bsp_oled12864.c...
+linking...
+Program Size: Code=640 RO-data=416 RW-data=0 ZI-data=608  
+".\Objects\test.axf" - 0 Error(s), 13 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: TexasInstruments
+                http://software-dl.ti.com/msp430/msp430_public_sw/mcu/msp430/msp432cmsis/latest/exports/TexasInstruments.MSP432P4xx_DFP.3.2.6.pack
+                TexasInstruments.MSP432P4xx_DFP.3.2.6
+                Device Family Pack for Texas Instruments SimpleLink(TM) MSP432 Series
+   * Component: Startup Version: 3.2.2
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Target_1
+  C:/Users/mmj19/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/mmj19/AppData/Local/Arm/Packs/TexasInstruments/MSP432P4xx_DFP/3.2.6/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: TexasInstruments::Device:Startup:3.2.2
+      Source file:   Device/Source/system_msp432p401r.c
+      Source file:   Examples/EmptyMain/main.c
+      Source file:   Examples/BlinkLED/blinkLED.c
+      Include file:  Device/Include/msp_compatibility.h
+      Source file:   Device/Source/startup_msp432p401r_uvision.s
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
